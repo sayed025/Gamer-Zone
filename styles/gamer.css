@@ -277,6 +277,45 @@ nav {
     gap: 20px;
 }
 
+footer {
+    margin: 50px 0;
+    background: #0B0223;
+    height: 400px;
+}
+
+.footer-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px 0;
+}
+
+.footerdescripton {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footerdescripton1 {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
 
 /* responsive nav for mobile */
 
@@ -334,9 +373,10 @@ nav {
         translate: -60px -200px;
     }
 
-    .games-container{
+    .games-container {
         gap: 5px;
     }
+
     .games {
         width: 25%;
         border-radius: 10px;
@@ -352,6 +392,7 @@ nav {
     .games p {
         font-size: 12px;
     }
+
 
 
 }
@@ -408,9 +449,11 @@ nav {
     .promotion-img-second {
         translate: -80px -210px;
     }
-    .games-container{
+
+    .games-container {
         gap: 5px;
     }
+
     .games {
         width: 25%;
         border-radius: 10px;
