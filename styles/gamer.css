@@ -253,6 +253,31 @@ nav {
     translate: -150px -200px;
 }
 
+/* gamees */
+
+.game-description {
+    color: #0B0223;
+    font-weight: 600;
+}
+
+.games-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.games {
+    align-items: center;
+    display: flex;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 20px;
+    gap: 20px;
+}
+
+
 /* responsive nav for mobile */
 
 @media screen and (max-width: 426px) {
@@ -309,6 +334,25 @@ nav {
         translate: -60px -200px;
     }
 
+    .games-container{
+        gap: 5px;
+    }
+    .games {
+        width: 25%;
+        border-radius: 10px;
+        background: #FFF;
+        padding: 5px;
+        gap: 2px;
+    }
+
+    .games img {
+        width: 50%;
+    }
+
+    .games p {
+        font-size: 12px;
+    }
+
 
 }
 
@@ -363,5 +407,23 @@ nav {
 
     .promotion-img-second {
         translate: -80px -210px;
+    }
+    .games-container{
+        gap: 5px;
+    }
+    .games {
+        width: 25%;
+        border-radius: 10px;
+        background: #FFF;
+        padding: 5px;
+        gap: 2px;
+    }
+
+    .games img {
+        width: 50%;
+    }
+
+    .games p {
+        font-size: 12px;
     }
 }
