@@ -311,19 +311,16 @@ footer {
 
 .footer-menu {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-content: flex-start;
-    gap: 60px;
+    gap: 70px;
     margin: 70px 0;
 }
 
-.social-menu {
+.small-footer-menu {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 90px;
-    align-content: flex-start;
+    align-items: center;
+    gap: 70px;
 }
 
 .footerdescripton {
@@ -357,9 +354,11 @@ footer {
     .right ul,
     .game-img-container,
     .online-games,
-    .promotion {
+    .promotion,
+    .footer-menu {
         flex-direction: column;
     }
+
 
     .game-img-container {
         width: 100%;
@@ -371,8 +370,11 @@ footer {
 
     .banner-img {
         width: 100%;
-        margin: 30px auto;
+        margin: auto;
+        margin-bottom: 50px;
     }
+
+
 
     .left {
         margin-bottom: 20px;
@@ -382,10 +384,14 @@ footer {
         gap: 16px;
     }
 
+    .game-content p {
+        width: 60%;
+        margin: auto;
+    }
+
     .game-img {
         width: 80%;
         margin: auto;
-        margin-top: 20px;
     }
 
     .promotion {
@@ -435,6 +441,15 @@ footer {
         width: 60%;
         margin: auto;
     }
+
+    .footer-menu {
+        gap: 40px;
+        align-items: center;
+    }
+
+    .small-footer-menu {
+        gap: 40px;
+    }
 }
 
 /* responsive nav for tab */
@@ -445,7 +460,8 @@ footer {
     .right ul,
     .game-img-container,
     .online-games,
-    .promotion {
+    .promotion,
+    .footer-menu {
         flex-direction: column;
     }
 
@@ -496,17 +512,26 @@ footer {
 
     .games {
         width: 25%;
-        border-radius: 10px;
+        border-radius: 30px;
         background: #FFF;
         padding: 5px;
         gap: 10px;
     }
 
     .games img {
-        width: 50%;
+        width: 80%;
     }
 
     .games p {
         font-size: 12px;
+    }
+
+    .footer-menu {
+        gap: 30px;
+        align-items: center;
+    }
+
+    .small-footer-menu {
+        gap: 80px;
     }
 }
