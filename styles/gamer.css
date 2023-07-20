@@ -228,7 +228,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 250px;
+    gap: 200px;
     margin: 0;
 }
 
@@ -247,9 +247,16 @@ nav {
     -webkit-text-fill-color: transparent;
 }
 
-.promotion-img-second {
+.promotion-img-first img {
+    width: 80%;
+}
 
-    translate: -150px -200px;
+.promotion-img-second img {
+    width: 40%;
+}
+
+.promotion-img-second {
+    translate: -100px -200px;
 }
 
 /* gamees */
@@ -512,14 +519,14 @@ footer {
 
     .games {
         width: 25%;
-        border-radius: 30px;
+        border-radius: 40px;
         background: #FFF;
         padding: 5px;
         gap: 10px;
     }
 
     .games img {
-        width: 80%;
+        width: 90%;
     }
 
     .games p {
