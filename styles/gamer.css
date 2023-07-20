@@ -313,8 +313,17 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: flex-start;
     gap: 60px;
-    margin: 50px 0;
+    margin: 70px 0;
+}
+
+.social-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px;
+    align-content: flex-start;
 }
 
 .footerdescripton {
@@ -333,6 +342,12 @@ footer {
     text-align: center;
     padding-bottom: 50px;
 }
+
+.social img {
+    width: 40px;
+    height: 40px;
+}
+
 
 /* responsive nav for mobile */
 
